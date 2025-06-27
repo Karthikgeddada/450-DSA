@@ -103,7 +103,7 @@ function App() {
 				</a>
 			</div> */}
         <h1 className="app-heading text-center mt-4" style={{ color: dark ? "white" : "" }}>
-          450 DSA Cracker
+          Welcome to DSA250 🔥
         </h1>
 
         {questionData.length === 0 ? (
