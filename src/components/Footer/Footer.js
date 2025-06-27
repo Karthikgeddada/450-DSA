@@ -8,16 +8,19 @@ export default function Footer({ dark, setDark }) {
 			<footer className="footer" style={{ backgroundColor: dark ? "#393E46" : "" }}>
 				<div className="d-flex bd-highlight">
 					<div className="p-2 bd-highlight">
-						<a href="https://github.com/AsishRaju/450-DSA">
-							<h4>
-								<Badge pill variant="light" className="hvr-grow">
-									<span role="img" aria-label="star" className="emojiFix">
-										⭐
-									</span>{" "}
-									This project
-								</Badge>
-							</h4>
-						</a>
+						<a href="https://github.com/karthikgeddada" target="_blank" rel="noopener noreferrer">
+  <h4>
+    <Badge pill variant="light" className="hvr-grow">
+      <span role="img" aria-label="heart" className="emojiFix">❤️</span>{" "}
+      Built by Geddada Karthik
+    </Badge>
+  </h4>
+</a>
+
+<h6 style={{ fontSize: "12px", color: "#ccc", marginTop: "4px" }}>
+  Inspired by 450 DSA Cracker – MIT License
+</h6>
+
 					</div>
 					<div className="ml-auto p-2 bd-highlight footer-toggle">
 						<h4>
